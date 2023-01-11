@@ -1,0 +1,43 @@
+﻿@{ ViewData["Title"] = "Register"; }
+
+<!-- Login form -->
+<div class="container form-wrapper">
+
+  <form>
+    <h1 class="text-center">Register form</h1>
+    <div class="mb-3">
+      <span>
+        Have an account?
+        <a asp-controller="login" asp-action="index" class="text-info">Login</a>
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="firstname" class="form-label">Firstname</label>
+      <input type="text" class="form-control" id="firstname" autofocus aria-describedby="firstnameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="lastname" class="form-label">Lastname</label>
+      <input type="text" class="form-control" id="lastname" autofocus aria-describedby="lastnameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" autofocus aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">
+        I have read the <a href="~/docs/Terms and Conditions.pdf" class="text-primary">Terms&Conditions</a>
+        and I agree.
+      </label>
+    </div>
+    <div class="mb-3">
+      <button type="submit" class="btn btn-dark btn-sm">Register</button>
+    </div>
+  </form>
+
+
+</div>

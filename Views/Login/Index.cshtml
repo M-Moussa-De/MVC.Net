@@ -1,0 +1,28 @@
+﻿@{ ViewData["Title"] = "Login"; }
+
+<!-- Login form -->
+<div class="container form-wrapper">
+
+  <form>
+    <h1 class="text-center">Login form</h1>
+    <div class="mb-3">
+      <span>
+        Need an account?
+        <a asp-controller="register" asp-action="index" class="text-info">Register</a>
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" autofocus aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password">
+    </div>
+    <div class="mb-3">
+      <button type="submit" class="btn btn-dark btn-sm">Login</button>
+    </div>
+  </form>
+
+
+</div>

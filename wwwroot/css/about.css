@@ -1,0 +1,11 @@
+#about {
+  padding-bottom: 3rem;
+}
+
+#about h1 {
+  font-size: 1.6rem;
+}
+
+#about p.card-text {
+  font-size: 15px;
+}
