@@ -21,5 +21,7 @@ It's a simple static webpage for a services company.
 ## Screenshots
 
 ![Home page](wwwroot/imgs/1.png)
-
-clone `npm clone <<URL>>` or download it as zip.
+![Services and price plan  section](wwwroot/imgs/2.png)
+![About page](wwwroot/imgs/3.png)
+![Login page](wwwroot/imgs/4.png)
+![Register page](wwwroot/imgs/5.png)
