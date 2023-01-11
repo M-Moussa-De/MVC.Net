@@ -20,7 +20,8 @@ It's a simple static webpage for a services company.
 
 ## Screenshots
 
-![Home page](wwwroot/imgs/1.png)
+<img src="wwwroot/imgs/1.png" width="200" height="100">
+
 ![Services and price plan  section](wwwroot/imgs/2.png)
 ![About page](wwwroot/imgs/3.png)
 ![Login page](wwwroot/imgs/4.png)
