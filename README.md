@@ -10,7 +10,7 @@ It's a simple static webpage for a services company.
 - Register page
 - Terms and conditions
 
-## Used technolochiqs
+## Used technologies
 
 - ASP.NetCore MVC
 - Razor
